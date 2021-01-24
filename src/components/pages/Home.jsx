@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Intro from '../Intro/Intro'
 
 function Home() {
     return (
-        <div>
-            This is home page
-            
-        </div>
+        <Intro/>
     )
 }
 
