@@ -1,0 +1,23 @@
+.about-container {
+  background-color: rgb(247, 242, 234);
+  padding: 60px;
+  text-align: center;
+}
+.about-me > p {
+  text-align: justify;
+}
+.devicon {
+  color: black;
+  font-size: 4rem;
+  margin: 10px 4px;
+}
+.skill-set,
+.workplace-strength {
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 960px) {
+  .about-container {
+    padding: 100px;
+  }
+}

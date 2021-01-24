@@ -1,4 +1,5 @@
 import React from 'react'
+import About from '../About/About'
 import './Intro.css'
 
 function Intro() {
@@ -12,6 +13,7 @@ function Intro() {
                 <p>&lt;I like="Debugging"&gt;&lt;/I&gt;</p>
                 <p>&lt;/Hello&gt;</p>
             </div>
+            <About />
         </div>
     )
 }
