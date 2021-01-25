@@ -37,7 +37,7 @@ const projectLists = [
   },
   {
     title: "Movie Chews",
-    image: "/images/movie-chew.PNG",
+    image: "/images/movie-chew.png",
     description:
       "Movie Chews helps visitors to the site to choose a random movie by genre. Then selects a snack to pair with the winning movie and notifies visitor of snack locations. ",
     github: "https://github.com/Songhee95/Movie-Chews",
