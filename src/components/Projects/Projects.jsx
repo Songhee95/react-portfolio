@@ -8,7 +8,7 @@ function Projects() {
     const displayList = list.map(list =>(
             <div className="card border-success col-sm-3" key={list.key}>
             <div className="card-header bg-dark border-success ">{list.title}</div>
-                <img src={list.image}  alt={list.title} />
+                <img src={process.env.PUBLIC_URL + list.image}  alt={list.title} />
                     <div className="card-text bg-dark">{list.description}</div>
                     <div className='icon bg-dark'>
 
@@ -26,7 +26,7 @@ function Projects() {
 
     return (
         <>
-        <video src='/videos/1.mp4' autoPlay loop muted />
+        <video src={process.env.PUBLIC_URL + '/videos/1.mp4'} autoPlay loop muted />
         <div className='row'>{displayList}</div>
         </>
     )

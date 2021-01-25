@@ -1,7 +1,7 @@
 const projectLists = [
   {
     title: "Resume Builder",
-    image: "../images/resume_builder.PNG",
+    image: "/images/resume_builder.PNG",
     description:
       "Resume builder for Developers, Prevent scrambled issue of resume template. Create your account, create resume and manage your resume.",
     github: "https://github.com/Songhee95/resume-builder",
@@ -19,7 +19,7 @@ const projectLists = [
   },
   {
     title: "Resume Builder",
-    image: "../images/resume_builder.PNG",
+    image: "/images/resume_builder.PNG",
     description:
       "Resume builder for Developers, Prevent scrambled issue of resume template. Create your account, create resume and manage your resume.",
     github: "https://github.com/Songhee95/resume-builder",
@@ -37,7 +37,7 @@ const projectLists = [
   },
   {
     title: "Movie Chews",
-    image: "../images/movie-chew.PNG",
+    image: "/images/movie-chew.PNG",
     description:
       "Movie Chews helps visitors to the site to choose a random movie by genre. Then selects a snack to pair with the winning movie and notifies visitor of snack locations. ",
     github: "https://github.com/Songhee95/Movie-Chews",
@@ -49,7 +49,7 @@ const projectLists = [
       "devicon-javascript-plain devicon",
       "devicon-jquery-plain-wordmark devicon",
     ],
-    key: 2,
+    key: 3,
   },
 ];
 

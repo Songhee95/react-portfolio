@@ -6,7 +6,7 @@ function Intro() {
     return (
         <div>
             <div className='intro-container'>
-                <img src='./images/songhee.png' alt='songhee'></img>
+                <img src={process.env.PUBLIC_URL + '/images/songhee.png'} alt='songhee'></img>
                 <p>&lt;Hello my="name-is"&gt;</p>
                 <h1>SONGHEE YIM</h1>
                 <h2>FULL STACK DEVELOPER</h2>
