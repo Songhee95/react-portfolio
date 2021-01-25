@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link, NavLink} from "react-router-dom";
-import './Navbar.css'
+import './Navbar.css';
 
 function Navbar() {
     const [clicked, setClicked] = useState(false);
@@ -34,9 +34,9 @@ function Navbar() {
                             <NavLink className="nav-links " to="/portfolio">Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link to="/files/resume_Songhee.pdf" target="_blank" className="nav-links">
+                            <a href="./files/resume_Songhee.pdf" target="_blank" download className="nav-links">
                                 <i className="fas fa-download"></i> RESUME
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
                             <a href="mailto:thdgml5537@gmail.com" className="nav-links">
