@@ -1,6 +1,5 @@
 .intro-container {
-  background: url("https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTY1fHxiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-  background-size: cover;
+  background-color: rgba(54, 13, 11, 0.705);
   height: 100%;
   text-align: center;
   padding: 60px 0;
