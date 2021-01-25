@@ -12,7 +12,15 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">Songhee Yim</Link>
+                    <div className="head-icons">
+                        <Link className="navbar-brand" to="/">Songhee Yim</Link>
+                        <Link to="/github" target="_blank" className="navbar-brand">
+                            <i className="fab fa-github github"></i>
+                        </Link>
+                        <Link to="/linkedin" target="_blank" className="navbar-brand">
+                            <i className="fab fa-linkedin linkedin"></i>
+                        </Link>
+                    </div>
                     {/* mobile screen menu */}
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={clicked ? "fas fa-times" : "fas fa-bars"} />
@@ -23,7 +31,7 @@ function Navbar() {
                             <NavLink className="nav-links" to="/aboutme">About Me</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-links" to="/portfolio">Portfolio</NavLink>
+                            <NavLink className="nav-links " to="/portfolio">Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
                             <Link to="/files/resume_Songhee.pdf" target="_blank" className="nav-links">

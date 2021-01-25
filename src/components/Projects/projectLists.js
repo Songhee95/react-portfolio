@@ -33,7 +33,7 @@ const projectLists = [
       "devicon-mysql-plain-wordmark devicon",
       "devicon-handlebars-plain-wordmark devicon",
     ],
-    key: 1,
+    key: 2,
   },
   {
     title: "Movie Chews",
