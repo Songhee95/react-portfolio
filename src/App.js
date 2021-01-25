@@ -4,6 +4,7 @@ import Home from "./components/pages/Home";
 import AboutMe from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             return null;
           }}
         />
+        <Footer />
       </Router>
     </>
   );
