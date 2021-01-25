@@ -1,6 +1,10 @@
-.row {
+.project-row {
   width: 100%;
+  padding-bottom: 100px;
   justify-content: center;
+  background-color: rgba(224, 189, 164, 0.315);
+  display: flex;
+  flex-wrap: wrap;
 }
 video {
   width: 100%;
@@ -10,7 +14,8 @@ video {
   z-index: -1;
   top: 0;
 }
-img {
+.project-image {
+  height: 300px;
   padding: 10px;
   background-color: rgb(207, 205, 205);
   margin: 0;

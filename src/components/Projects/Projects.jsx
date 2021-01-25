@@ -6,9 +6,9 @@ function Projects() {
     const [list, setList] = useState(projectLists);
     
     const displayList = list.map(list =>(
-            <div className="card border-success col-sm-3" key={list.key}>
+            <div className="card border-success" key={list.key}>
             <div className="card-header bg-dark border-success ">{list.title}</div>
-                <img src={process.env.PUBLIC_URL + list.image}  alt={list.title} />
+                <img className="project-image" src={process.env.PUBLIC_URL + list.image}  alt={list.title} />
                     <div className="card-text bg-dark">{list.description}</div>
                     <div className='icon bg-dark'>
 
@@ -26,8 +26,8 @@ function Projects() {
 
     return (
         <>
-        <video src={process.env.PUBLIC_URL + '/videos/1.mp4'} autoPlay loop muted />
-        <div className='row'>{displayList}</div>
+        <video src={process.env.PUBLIC_URL + "/videos/1.mp4"} autoPlay loop muted />
+        <div className='project-row'>{displayList}</div>
         </>
     )
 }
