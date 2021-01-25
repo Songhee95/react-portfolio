@@ -29,6 +29,7 @@ function About() {
                 <div className='skill-set col-sm-12 col-md-12 col-lg-6'>
                     <h1>Skill Set</h1>
                     <div className="icons row">
+                        <i className="devicon-css3-plain-wordmark devicon col"></i>
                         <i className="devicon-bootstrap-plain-wordmark devicon col"></i>
                         <i className="devicon-jquery-plain-wordmark devicon col"></i>
                         <i className="devicon-javascript-plain devicon col"></i>
