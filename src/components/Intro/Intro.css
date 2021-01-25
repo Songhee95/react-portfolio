@@ -1,7 +1,9 @@
 .intro-container {
+  background-color: rgba(255, 245, 238, 0.486);
+  position: relative;
   height: 100%;
   text-align: center;
-  color: black;
+  color: rgb(104, 64, 38);
 }
 .intro-pic {
   width: 100%;
@@ -14,7 +16,7 @@
 }
 .intro-context {
   position: absolute;
-  top: 250px;
+  bottom: 5vh;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -23,6 +25,13 @@
   animation-duration: 5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+.intro-context > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.intro-context > h1 ~ h2 {
+  font-size: 30px;
 }
 @keyframes fadeOut {
   0% {
@@ -47,4 +56,41 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+@media screen and (min-width: 720px) and (max-width: 960px) {
+  .intro-context {
+    bottom: 20vh;
+  }
+  .intro-context > p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .intro-context > h1 ~ h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .intro-pic {
+    width: 40%;
+  }
+  .intro-context {
+    position: static;
+    padding: 20vh;
+  }
+  .intro-context > p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .intro-context > h1 ~ h2 {
+    font-size: 40px;
+  }
+  .fadeOut {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
 }
